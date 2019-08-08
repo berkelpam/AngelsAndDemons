@@ -1,9 +1,13 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class main {
 
     public main() {
+
+
+
 
 
 
@@ -32,6 +36,15 @@ public class main {
 // There is a whole Java I/O section later in the course where you will get to use files, etc.
 
     }
+
+
+    public static void main(String args[]){
+
+        Angel jane=new Angel("Jane","Female");
+        System.out.println(jane.getHealth());
+
+    }
+
 
 
     public static ArrayList<String> readValues() {

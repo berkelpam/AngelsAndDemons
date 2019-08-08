@@ -1,6 +1,8 @@
 public class NewStyleCharacter extends Character implements INewCharacter {
-    public NewStyleCharacter() {
 
+
+    public NewStyleCharacter(String name, String gender) {
+        super(name, gender);
     }
 
     @Override
