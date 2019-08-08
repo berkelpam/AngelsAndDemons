@@ -5,6 +5,8 @@ public class main {
 
     public main() {
 
+
+
 // Create a simple interface (tip: name it Saveable or ISaveable)
 // That interface allows an object to be saved to some sort of storage medium. (tip: use arraylist)
 // The exact type of medium is not known to the interface (nor to the classes that implement it).
