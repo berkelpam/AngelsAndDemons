@@ -6,5 +6,6 @@ public interface ICharacter {
     Integer Health();
     Integer Mana();
     Integer Strength();
+    Boolean Alive();
 
 }

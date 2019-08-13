@@ -43,6 +43,11 @@ public class main {
         Angel jane=new Angel("Jane","Female");
         System.out.println(jane.getHealth());
 
+        Demon jack = new Demon("Jack","Male");
+        System.out.println(jack.getHealth());
+        jack.hit(20);
+        System.out.println(jack.Health());
+
     }
 
 
